@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script defer src="/__/firebase/9.6.1/firebase-app-compat.js"></script>
+    <!-- <script defer src="/__/firebase/9.6.1/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.6.1/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.6.1/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.6.1/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.6.1/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.6.1/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.6.1/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.6.1/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.6.1/firebase-performance-compat.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script> -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/5c22f1e064.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>10 Controls | Coming Soon</title>
+    <meta name="description" content="10 Controls is an all-new online community for esports fans coming later this year.">
+  <meta name="keywords" content="esports, lol esports, g2 esports, guild esports">
+    <link rel="shortcut icon" type="image/svg" href="/logo.svg" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="form-card">
+        <form
+          class="email-form"
+          id="email-form"
+          action="/success.html"
+          name="email-form"
+        >
+          <div class="image-container"><img src="logo.svg" /></div>
+          <h1>
+            10 Controls. An all-new online community for esports fans.
+          </h1>
+          <h2>COMING LATER THIS YEAR</h2>
+          <p class="text-body">
+            Drop your email below to be notified as soon as we launch and be one
+            of the first to get access.
+          </p>
+          <p class="consent-check">
+            <input
+              required
+              type="checkbox"
+              name="agreetomarketing"
+              value="check"
+              id="agree"
+            />By submitting this form I acknowledge my data may be used for
+            marketing purposes.
+          </p>
+          <p class="email-input">
+            <input
+              required
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email address"
+            />
+            <button
+              name="submit"
+              id="submit"
+              class="btn--submit-email"
+              type="submit"
+            >
+              <div id="button-arrow">
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </div>
+              <div id="button-loading">
+                <i class="fas fa-circle-notch fa-spin"></i>
+              </div>
+            </button>
+          </p>
+        </form>
+
+        <div id="success-content">
+          <div class="success-box">
+            <div class="image-container"><img src="logo.svg" /></div>
+            <h1>Good for you. You are on the list! See you soon.</h1>
+            <div>
+              <h2 class="share-text">
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                Share
+              </h2>
+              <div class="share-btn">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F10controls.com%2F&amp;src=sdkpreparse"
+                  ><i class="fab fa-facebook-f" aria-hidden="true"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="http://twitter.com/share?url=https://10controls.com"
+                  ><i class="fab fa-twitter" aria-hidden="true"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="whatsapp://send?text=Check out this website! https://10controls.com"
+                  data-action="share/whatsapp/share"
+                  ><i class="fab fa-whatsapp" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <video src="video.mp4" muted loop autoplay></video> -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="function.js"></script>
+  </body>
+</html>
